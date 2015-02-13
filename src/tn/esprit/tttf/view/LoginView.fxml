@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.esprit.tttf.controller.LoginViewController">
+   <children>
+      <ImageView fitHeight="576.0" fitWidth="1018.0" pickOnBounds="true">
+         <image>
+            <Image url="@../ressources/login_background.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn_login" layoutX="341.0" layoutY="344.0" mnemonicParsing="false" onAction="#loginAction" opacity="0.0" prefHeight="36.0" prefWidth="339.0" text="Button" />
+      <TextField fx:id="txt_username" layoutX="349.0" layoutY="234.0" prefHeight="36.0" prefWidth="288.0" style="-fx-background-color: grey;" />
+      <TextField fx:id="txt_password" layoutX="349.0" layoutY="278.0" prefHeight="36.0" prefWidth="288.0" style="-fx-background-color: darkgrey;" />
+   </children>
+</AnchorPane>
